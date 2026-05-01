@@ -312,7 +312,7 @@ export function renderTerminal(results) {
     renderTodos(results.todos),
     results.errors.length > 0 ? '\n' + renderErrors(results.errors) : '',
     '',
-    c.dim('  Run with --json for machine-readable output. devlens --help for options.'),
+    c.dim(`  Run with --json for machine-readable output. ${pkg.name} --help for options.`),
     '',
   ];
 
