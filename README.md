@@ -20,14 +20,32 @@ npx devlens
 
 ---
 
-<!-- Add your demo GIF here: record with `vhs devlens.tape` or `asciinema rec` -->
-<!-- ![dev-lens demo](https://raw.githubusercontent.com/CHHemant/dev-lens/main/assets/demo.gif) -->
+<img src="assets/demo.svg" alt="dev-lens demo" width="820" />
 
 </div>
 
 ---
 
-## ✨ What it does
+## 🎯 Who it's for
+
+- OSS maintainers who want a fast, friendly health check
+- Indie hackers and early-stage teams validating project quality
+- Engineering leads scanning multiple repos for risk or tech debt
+
+## 💎 Core value
+
+**dev-lens gives you instant, zero-config project health signals so you can decide what to fix, ship, or share next.**
+
+## ✨ Key features
+
+- Zero-config CLI — works in any repo in seconds
+- Health score with clear, actionable breakdowns
+- Git, dependencies, code, and TODO scans in one run
+- JSON output for CI or dashboards
+
+---
+
+## 🧭 What it does
 
 Drop into **any** project directory and get a beautiful, instant health report:
 
@@ -43,7 +61,7 @@ Works with **Node.js, Python, Rust, Go, Ruby** projects and any Git repo.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
 ```bash
 # Run on the current directory (no install needed)
@@ -221,6 +239,8 @@ Pipe `--json` output into any script or monitoring system:
 ## 🤝 Contributing
 
 Contributions are very welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+Looking for a starter task? Check out issues labeled [good first issue](https://github.com/CHHemant/dev-lens/labels/good%20first%20issue).
 
 ```bash
 git clone https://github.com/CHHemant/dev-lens.git

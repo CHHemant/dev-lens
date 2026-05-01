@@ -1,0 +1,22 @@
+<svg width="820" height="360" viewBox="0 0 820 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="dev-lens demo output">
+  <defs>
+    <style>
+      .bg { fill: #0b1020; }
+      .panel { fill: #111827; stroke: #1f2937; stroke-width: 2; }
+      .title { fill: #e5e7eb; font: 600 18px "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .text { fill: #cbd5f5; font: 14px "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .accent { fill: #22d3ee; }
+      .ok { fill: #4ade80; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="820" height="360" rx="18" />
+  <rect class="panel" x="24" y="24" width="772" height="312" rx="14" />
+  <text class="title" x="48" y="66">dev-lens demo</text>
+  <text class="text" x="48" y="100">$ npx devlens --path ./my-app</text>
+  <text class="text accent" x="48" y="136">✓ Code · 382 files · 31.2K LOC · TypeScript</text>
+  <text class="text accent" x="48" y="162">✓ Git · 64 commits last 30d · clean status</text>
+  <text class="text accent" x="48" y="188">✓ Deps · 48 prod · 22 dev · up to date</text>
+  <text class="text accent" x="48" y="214">✓ Todos · 6 TODO · 1 FIXME</text>
+  <text class="text ok" x="48" y="246">Health Score: 89/100 (B+)</text>
+  <text class="text" x="48" y="280">Report saved to: ./devlens.json</text>
+</svg>
