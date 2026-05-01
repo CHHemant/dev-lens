@@ -20,6 +20,7 @@ body:
     attributes:
       label: Proposed solution
       description: How would you like dev-lens to work?
+      placeholder: "e.g. Add a --format flag that accepts 'json' or 'text'."
     validations:
       required: true
   - type: textarea
