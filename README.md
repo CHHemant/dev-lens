@@ -20,14 +20,32 @@ npx devlens
 
 ---
 
-<!-- Add your demo GIF here: record with `vhs devlens.tape` or `asciinema rec` -->
-<!-- ![dev-lens demo](https://raw.githubusercontent.com/CHHemant/dev-lens/main/assets/demo.gif) -->
+<img src="assets/demo.svg" alt="dev-lens demo" width="820" />
 
 </div>
 
 ---
 
-## ✨ What it does
+## 🎯 Who it's for
+
+- OSS maintainers who want a fast, friendly health check
+- Indie hackers and early-stage teams validating project quality
+- Engineering leads scanning multiple repos for risk or tech debt
+
+## 💎 Core value
+
+**dev-lens gives you instant, zero-config project health signals so you can decide what to fix, ship, or share next.**
+
+## ✨ Key features
+
+- Zero-config CLI — works in any repo in seconds
+- Health score with clear, actionable breakdowns
+- Git, dependencies, code, and TODO scans in one run
+- JSON output for CI or dashboards
+
+---
+
+## 🧭 What it does
 
 Drop into **any** project directory and get a beautiful, instant health report:
 
@@ -43,7 +61,7 @@ Works with **Node.js, Python, Rust, Go, Ruby** projects and any Git repo.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
 ```bash
 # Run on the current directory (no install needed)
@@ -204,6 +222,47 @@ Pipe `--json` output into any script or monitoring system:
 
 ---
 
+## 📣 Launch Plan (Maintainers)
+
+### 2-week goals
+
+- ⭐ 50+ stars from relevant dev communities
+- 🧪 10+ users run dev-lens and share feedback
+- 🧭 5+ actionable issues opened (bugs, feature requests, or docs)
+
+### 2-week outreach schedule
+
+| Day | Focus | Example post |
+|---|---|---|
+| 1 | Launch announcement | “Zero-config project health in one command.” |
+| 2 | Demo clip | 20–30s recording with a real repo |
+| 3 | Lesson learned | What dev-lens surfaced in your own repo |
+| 4 | Feature highlight | Git + TODO scan + health score |
+| 5 | Use case | “Before a release: run dev-lens” |
+| 6 | Community share | Ask for feedback, not stars |
+| 7 | Recap | Share improvements + next goals |
+| 8 | Progress update | Metrics + new issues fixed |
+| 9 | Integration tip | JSON output for CI |
+| 10 | Testimonial | Quote or screenshot from a user |
+| 11 | Roadmap poll | Ask which feature to build next |
+| 12 | Issue spotlight | “Good first issue” share |
+| 13 | Behind the scenes | How scoring works |
+| 14 | Wrap-up | Results + next milestone |
+
+### Target communities
+
+- r/opensource, r/commandline, r/webdev
+- Indie Hackers, dev.to, Hashnode
+- Discords/Slack groups for Node.js, OSS, and indie builders
+
+### Engagement loop
+
+- Respond within 24 hours to comments and issues
+- Ship small fixes fast and share the update publicly
+- Highlight contributors and credit feedback
+
+---
+
 ## 🗺 Roadmap
 
 - [ ] HTML/PDF report export
@@ -221,6 +280,8 @@ Pipe `--json` output into any script or monitoring system:
 ## 🤝 Contributing
 
 Contributions are very welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+Looking for a starter task? Check out issues labeled [good first issue](https://github.com/CHHemant/dev-lens/labels/good%20first%20issue).
 
 ```bash
 git clone https://github.com/CHHemant/dev-lens.git

@@ -23,6 +23,17 @@ npm test
 node bin/devlens.js --path /path/to/other/project
 ```
 
+## Good First Issues
+
+If you are new to the project, start with issues labeled
+[good first issue](https://github.com/CHHemant/dev-lens/labels/good%20first%20issue).
+
+## Communication
+
+- Open an issue for bugs, feature ideas, or docs improvements
+- Provide minimal reproduction steps and sample output when possible
+- We aim to respond within 24–48 hours
+
 ## Project Structure
 
 ```

@@ -1,0 +1,33 @@
+name: Good first issue
+description: Create a starter-friendly task for new contributors
+title: "[Good First Issue]: "
+labels: ["good first issue", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to craft a small, well-scoped task for new contributors.
+  - type: textarea
+    id: task
+    attributes:
+      label: Task summary
+      description: Describe the small change or fix.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why this matters or where it lives in the codebase.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Suggested steps
+      description: Outline the expected approach (no need for full detail).
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What must be true to close the issue?
+    validations:
+      required: true
