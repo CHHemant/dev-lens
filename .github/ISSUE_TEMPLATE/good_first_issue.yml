@@ -1,33 +1,42 @@
 name: Good first issue
-description: Create a starter-friendly task for new contributors
+description: "[Maintainers only] Create a starter-friendly task for new contributors"
 title: "[Good First Issue]: "
 labels: ["good first issue", "help wanted"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template to craft a small, well-scoped task for new contributors.
+        > **Note:** This template is intended for **maintainers** to create well-scoped tasks that new contributors can pick up.
   - type: textarea
     id: task
     attributes:
       label: Task summary
-      description: Describe the small change or fix.
+      description: Describe the small change or fix in one or two sentences.
+      placeholder: "e.g. Add support for .nvmrc file detection in the deps analyzer."
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
       label: Context
-      description: Why this matters or where it lives in the codebase.
+      description: Why this matters and where in the codebase the change lives.
+      placeholder: "e.g. The relevant code is in src/analyzers/deps.js around line 40."
   - type: textarea
     id: steps
     attributes:
       label: Suggested steps
       description: Outline the expected approach (no need for full detail).
+      placeholder: |
+        1. Open src/analyzers/deps.js
+        2. Add an `if (existsSync('.nvmrc'))` block
+        3. Update the README ecosystem table
   - type: textarea
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: What must be true to close the issue?
+      description: What must be true for this issue to be considered complete?
+      placeholder: |
+        - [ ] .nvmrc is detected
+        - [ ] Existing tests still pass (`npm test`)
     validations:
       required: true
