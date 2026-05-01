@@ -36,16 +36,15 @@
     "dependency-audit",
     "devtools"
   ],
-  "author": "Your Name <you@example.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/devlens.git"
-  },
-  "homepage": "https://github.com/yourusername/devlens#readme",
-  "bugs": {
-    "url": "https://github.com/yourusername/devlens/issues"
-  },
+ "author": " Hemant Chilkuri <hemant@example.com>",
+"repository": {
+  "type": "git",
+  "url": "https://github.com/CHHemant/dev-lens.git"
+},
+"homepage": "https://github.com/CHHemant/dev-lens#readme",
+"bugs": {
+  "url": "https://github.com/CHHemant/dev-lens/issues"
+}
   "engines": {
     "node": ">=18.0.0"
   }
