@@ -1,5 +1,11 @@
 import chalk from 'chalk';
 import boxen from 'boxen';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const pkg = JSON.parse(readFileSync(join(__dirname, '../../package.json'), 'utf8'));
 
 // ── Palette ────────────────────────────────────────────────────────────
 const c = {
@@ -107,7 +113,7 @@ function renderHeader(results) {
   const sc = scoreColor(score);
   const grade = scoreGrade(score);
 
-  const title = c.primary.bold(`  🔍 devlens`) + c.dim(` v1.0.0`);
+  const title = c.primary.bold(`  🔍 dev-lens`) + c.dim(` v${pkg.version}`);
   const projectName = c.bold.white(results.name);
   const timestamp = c.dim(new Date(results.timestamp).toLocaleString());
   const health = sc.bold(`  ${score}/100`) + c.dim(` (${grade})`);
@@ -306,7 +312,7 @@ export function renderTerminal(results) {
     renderTodos(results.todos),
     results.errors.length > 0 ? '\n' + renderErrors(results.errors) : '',
     '',
-    c.dim('  Run with --json for machine-readable output. devlens --help for options.'),
+    c.dim(`  Run with --json for machine-readable output. ${pkg.name} --help for options.`),
     '',
   ];
 
