@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/CHHemant/devlens/main/assets/logo.svg" alt="devlens logo" width="120" />
+<img src="https://raw.githubusercontent.com/CHHemant/dev-lens/main/assets/logo.svg" alt="dev-lens logo" width="120" />
 
 # devlens 🔍
 
@@ -214,7 +214,7 @@ Pipe `--json` output into any script or monitoring system:
 - [ ] Config file (`.devlens.json`) for custom ignore patterns
 - [ ] Plugin API for custom analyzers
 
-> **Want a feature?** [Open an issue](https://github.com/CHHemant/devlens/issues) or [submit a PR](https://github.com/CHHemant/devlens/pulls)!
+> **Want a feature?** [Open an issue](https://github.com/CHHemant/dev-lens/issues) or [submit a PR](https://github.com/CHHemant/dev-lens/pulls)!
 
 ---
 
