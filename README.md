@@ -222,47 +222,6 @@ Pipe `--json` output into any script or monitoring system:
 
 ---
 
-## 📣 Launch Plan (Maintainers)
-
-### 2-week goals
-
-- ⭐ 50+ stars from relevant dev communities
-- 🧪 10+ users run dev-lens and share feedback
-- 🧭 5+ actionable issues opened (bugs, feature requests, or docs)
-
-### 2-week outreach schedule
-
-| Day | Focus | Example post |
-|---|---|---|
-| 1 | Launch announcement | “Zero-config project health in one command.” |
-| 2 | Demo clip | 20–30s recording with a real repo |
-| 3 | Lesson learned | What dev-lens surfaced in your own repo |
-| 4 | Feature highlight | Git + TODO scan + health score |
-| 5 | Use case | “Before a release: run dev-lens” |
-| 6 | Community share | Ask for feedback, not stars |
-| 7 | Recap | Share improvements + next goals |
-| 8 | Progress update | Metrics + new issues fixed |
-| 9 | Integration tip | JSON output for CI |
-| 10 | Testimonial | Quote or screenshot from a user |
-| 11 | Roadmap poll | Ask which feature to build next |
-| 12 | Issue spotlight | “Good first issue” share |
-| 13 | Behind the scenes | How scoring works |
-| 14 | Wrap-up | Results + next milestone |
-
-### Target communities
-
-- r/opensource, r/commandline, r/webdev
-- Indie Hackers, dev.to, Hashnode
-- Discords/Slack groups for Node.js, OSS, and indie builders
-
-### Engagement loop
-
-- Respond within 24 hours to comments and issues
-- Ship small fixes fast and share the update publicly
-- Highlight contributors and credit feedback
-
----
-
 ## 🗺 Roadmap
 
 - [ ] HTML/PDF report export
