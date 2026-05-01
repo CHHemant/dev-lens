@@ -6,7 +6,7 @@ Thank you for wanting to contribute! 🎉
 
 ```bash
 git clone https://github.com/CHHemant/dev-lens.git
-cd devlens
+cd dev-lens
 npm install
 ```
 

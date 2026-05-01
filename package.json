@@ -44,7 +44,7 @@
 "homepage": "https://github.com/CHHemant/dev-lens#readme",
 "bugs": {
   "url": "https://github.com/CHHemant/dev-lens/issues"
-}
+},
   "engines": {
     "node": ">=18.0.0"
   }
