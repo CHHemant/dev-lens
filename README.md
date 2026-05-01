@@ -2,12 +2,12 @@
 
 <img src="https://raw.githubusercontent.com/CHHemant/dev-lens/main/assets/logo.svg" alt="dev-lens logo" width="120" />
 
-# devlens 🔍
+# dev-lens 🔍
 
 **Zero-config project health analyzer — instant insights for any codebase**
 
 [![npm version](https://img.shields.io/npm/v/devlens?color=00D4FF&style=flat-square)](https://www.npmjs.com/package/devlens)
-[![CI](https://img.shields.io/github/actions/workflow/status/yourusername/devlens/ci.yml?style=flat-square&color=4ECDC4)](https://github.com/yourusername/devlens/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/CHHemant/dev-lens/ci.yml?style=flat-square&color=4ECDC4)](https://github.com/CHHemant/dev-lens/actions)
 [![npm downloads](https://img.shields.io/npm/dm/devlens?style=flat-square&color=C084FC)](https://www.npmjs.com/package/devlens)
 [![License: MIT](https://img.shields.io/badge/license-MIT-FFE66D?style=flat-square)](LICENSE)
 [![Node.js >=18](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square)](https://nodejs.org)
@@ -21,7 +21,7 @@ npx devlens
 ---
 
 <!-- Add your demo GIF here: record with `vhs devlens.tape` or `asciinema rec` -->
-<!-- ![devlens demo](https://raw.githubusercontent.com/yourusername/devlens/main/assets/demo.gif) -->
+<!-- ![dev-lens demo](https://raw.githubusercontent.com/CHHemant/dev-lens/main/assets/demo.gif) -->
 
 </div>
 
@@ -117,7 +117,7 @@ Pipe `--json` output into any script or monitoring system:
 ```
 ╭──────────────────────────────────────────────────╮
 │                                                  │
-│   🔍 devlens v1.0.0                              │
+│   🔍 dev-lens v1.0.0                              │
 │                                                  │
 │   Project: my-saas-app                           │
 │   Path:    /Users/dev/projects/my-saas-app       │
@@ -223,8 +223,8 @@ Pipe `--json` output into any script or monitoring system:
 Contributions are very welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ```bash
-git clone https://github.com/yourusername/devlens.git
-cd devlens
+git clone https://github.com/CHHemant/dev-lens.git
+cd dev-lens
 npm install
 npm test
 node bin/devlens.js   # run on itself!
@@ -234,13 +234,13 @@ node bin/devlens.js   # run on itself!
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026 CHHemant
+[MIT](LICENSE) © 2026 Hemant Chilkuri
 
 ---
 
 <div align="center">
 
-**If devlens saved you time, please ⭐ star the repo — it really helps!**
+**If dev-lens saved you time, please ⭐ star the repo — it really helps!**
 
 Made with ❤️ for the developer community
 
