@@ -5,7 +5,7 @@ Thank you for wanting to contribute! 🎉
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/devlens.git
+git clone https://github.com/CHHemant/dev-lens.git
 cd devlens
 npm install
 ```
@@ -26,7 +26,7 @@ node bin/devlens.js --path /path/to/other/project
 ## Project Structure
 
 ```
-devlens/
+dev-lens/
 ├── bin/devlens.js          CLI entry point
 ├── src/
 │   ├── index.js            Orchestrates all analyzers
