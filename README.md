@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/CHHemant/dev-lens/main/assets/logo.svg" alt="dev-lens logo" width="120" />
 
-# dev-lens 🔍
+# dev-lens
 
 **Zero-config project health analyzer — instant insights for any codebase**
 
@@ -26,17 +26,17 @@ npx devlens
 
 ---
 
-## 🎯 Who it's for
+## Who it's for
 
 - OSS maintainers who want a fast, friendly health check
 - Indie hackers and early-stage teams validating project quality
 - Engineering leads scanning multiple repos for risk or tech debt
 
-## 💎 Core value
+## Core value
 
 **dev-lens gives you instant, zero-config project health signals so you can decide what to fix, ship, or share next.**
 
-## ✨ Key features
+## Key features
 
 - Zero-config CLI — works in any repo in seconds
 - Health score with clear, actionable breakdowns
@@ -45,23 +45,23 @@ npx devlens
 
 ---
 
-## 🧭 What it does
+## What it does
 
 Drop into **any** project directory and get a beautiful, instant health report:
 
 | Category | What you learn |
 |---|---|
-| 📁 **Code** | File count, lines of code, language breakdown, largest files |
-| 🌿 **Git** | Commit velocity, contributors, branch status, last commit |
-| 📦 **Dependencies** | Total deps, outdated packages, ecosystem detection |
-| 🐛 **Tech Debt** | TODO/FIXME/BUG count, high-priority items, file locations |
-| ❤️ **Health Score** | 0–100 weighted score with letter grade |
+|  **Code** | File count, lines of code, language breakdown, largest files |
+|  **Git** | Commit velocity, contributors, branch status, last commit |
+|  **Dependencies** | Total deps, outdated packages, ecosystem detection |
+|  **Tech Debt** | TODO/FIXME/BUG count, high-priority items, file locations |
+|  **Health Score** | 0–100 weighted score with letter grade |
 
 Works with **Node.js, Python, Rust, Go, Ruby** projects and any Git repo.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Run on the current directory (no install needed)
@@ -83,7 +83,7 @@ devlens
 
 ---
 
-## 📦 Install
+## Install
 
 ```bash
 # npm
@@ -98,7 +98,7 @@ yarn global add devlens
 
 ---
 
-## 🎛  CLI Options
+##  CLI Options
 
 ```
 Usage: devlens [options]
@@ -116,7 +116,7 @@ Options:
 
 ---
 
-## 🔧 Use in CI
+## Use in CI
 
 Pipe `--json` output into any script or monitoring system:
 
@@ -130,12 +130,12 @@ Pipe `--json` output into any script or monitoring system:
 
 ---
 
-## 💡 Example Output
+##  Example Output
 
 ```
 ╭──────────────────────────────────────────────────╮
 │                                                  │
-│   🔍 dev-lens v1.0.0                              │
+│   dev-lens v1.0.0                              │
 │                                                  │
 │   Project: my-saas-app                           │
 │   Path:    /Users/dev/projects/my-saas-app       │
@@ -209,7 +209,7 @@ Pipe `--json` output into any script or monitoring system:
 
 ---
 
-## 🌍 Ecosystem Support
+## Ecosystem Support
 
 | Ecosystem | File | Deps | Outdated |
 |---|---|---|---|
@@ -236,7 +236,7 @@ Pipe `--json` output into any script or monitoring system:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are very welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -252,7 +252,7 @@ node bin/devlens.js   # run on itself!
 
 ---
 
-## 📄 License
+## License
 
 [MIT](LICENSE) © 2026 Hemant Chilkuri
 
